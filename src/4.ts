@@ -1,12 +1,12 @@
 class Key {
-    constructor(
-      private signature: number = Math.random()
-    ) {
-    }
+  constructor(
+    private signature: number = Math.random()
+  ) {
+  }
 
-    getSignature(): number {
-      return this.signature;
-    }
+  getSignature(): number {
+    return this.signature;
+  }
 }
 
 class Person {
